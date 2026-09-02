@@ -5,7 +5,7 @@
 **Category:** Crypto
 
 
-The following two files are included in the downloaded folder. Reading the `source.py` crypto the code loops through each character `p` in `msg`. With three if sentences:
+The following two files are included in the downloaded folder, `output.py` and `source.py`.  Reading the `source.py` crypto the code loops through each character `p` in `msg`. With three if sentences:
 * If `p` is a whitespace `" "` it adds a 0
 * Else if `p` is not a character between A-Z it gets added unchanged
 * Else (it's a letter between A–Z): get the ASCII value of the letter, subtract 65 to turn it into an index (0–25), shift that index forward by `shift` wrapping around with `% 26`, then add 65 back to convert it back into a letter.
