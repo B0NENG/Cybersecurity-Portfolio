@@ -14,13 +14,13 @@ Nmap
   ↓
 WEB enumeration (Apache + PHP detected)
   ↓
-Nuclei Scan ➜ PHP 8.1.0-dev Backdoor Identified
+Nuclei Scan → PHP 8.1.0-dev Backdoor Identified
   ↓
 PHP 8.1.0-dev Backdoor RCE Exploit (Github)
   ↓
-Shell as Jamer ➜ User Flag
+Shell as James → User Flag
   ↓
-Sudo -l ➜ NOPASSWD: /usr/bin/knife
+Sudo -l → NOPASSWD: /usr/bin/knife
   ↓
 Sudo knife exec -E 'puts File.read("/root/root.txt")'
   ↓
